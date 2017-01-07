@@ -125,6 +125,7 @@
 					85C64D2B1E20EA39002E934D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2VU65PA656;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
