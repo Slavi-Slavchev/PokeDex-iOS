@@ -2,4 +2,4 @@ ToDo list:
 
 ## License
 
-WeatherApp is released under the MIT license. See LICENSE for details.
+PokeDex is released under the MIT license. See LICENSE for details.
