@@ -15,6 +15,7 @@
 		85C64D421E20ECFF002E934D /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 85C64D411E20ECFF002E934D /* pokemon.csv */; };
 		85C64D451E20EDF0002E934D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C64D441E20EDF0002E934D /* Pokemon.swift */; };
 		85C64D481E20F894002E934D /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C64D471E20F894002E934D /* PokeCell.swift */; };
+		85C64D4A1E21741C002E934D /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C64D491E21741C002E934D /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		85C64D411E20ECFF002E934D /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		85C64D441E20EDF0002E934D /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		85C64D471E20F894002E934D /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		85C64D491E21741C002E934D /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				85C64D431E20EDDB002E934D /* Model */,
 				85C64D2F1E20EA39002E934D /* AppDelegate.swift */,
 				85C64D311E20EA39002E934D /* ViewController.swift */,
+				85C64D491E21741C002E934D /* csv.swift */,
 				85C64D331E20EA39002E934D /* Main.storyboard */,
 				85C64D361E20EA39002E934D /* Assets.xcassets */,
 				85C64D381E20EA39002E934D /* LaunchScreen.storyboard */,
@@ -167,6 +170,7 @@
 				85C64D321E20EA39002E934D /* ViewController.swift in Sources */,
 				85C64D301E20EA39002E934D /* AppDelegate.swift in Sources */,
 				85C64D451E20EDF0002E934D /* Pokemon.swift in Sources */,
+				85C64D4A1E21741C002E934D /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
