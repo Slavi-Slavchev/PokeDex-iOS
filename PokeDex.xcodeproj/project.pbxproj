@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		58ADCF082FF119D4264B6FCE /* Pods_PokeDex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD099DC90936EE86E99C255 /* Pods_PokeDex.framework */; };
+		8521232B1E225324003915D1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8521232A1E225324003915D1 /* Constants.swift */; };
 		85C64D301E20EA39002E934D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C64D2F1E20EA39002E934D /* AppDelegate.swift */; };
 		85C64D321E20EA39002E934D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C64D311E20EA39002E934D /* ViewController.swift */; };
 		85C64D351E20EA39002E934D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C64D331E20EA39002E934D /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8521232A1E225324003915D1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		85C64D2C1E20EA39002E934D /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C64D2F1E20EA39002E934D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85C64D311E20EA39002E934D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				85C64D491E21741C002E934D /* csv.swift */,
+				8521232A1E225324003915D1 /* Constants.swift */,
 			);
 			name = Until;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				85C64D321E20EA39002E934D /* ViewController.swift in Sources */,
 				85C64D301E20EA39002E934D /* AppDelegate.swift in Sources */,
 				85C64D5A1E21B30D002E934D /* PokemonDetailVC.swift in Sources */,
+				8521232B1E225324003915D1 /* Constants.swift in Sources */,
 				85C64D451E20EDF0002E934D /* Pokemon.swift in Sources */,
 				85C64D4A1E21741C002E934D /* csv.swift in Sources */,
 			);
@@ -352,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -395,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -452,6 +456,7 @@
 				85C64D401E20EA39002E934D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -30,13 +30,30 @@ class PokemonDetailVC: UIViewController {
     
     
     
-   // @IBOutlet weak var nameL: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         nameL.text = pokemon.name
+        
+        pokemon.downloadPokemonDetail {
+            
+                    
+            self.updateUI()
+        }
+        
+
+    }
+    
+    
+    func updateUI(){
+        
+        weightL.text = pokemon.weight
+        heightL.text = pokemon.height
+        attackL.text = pokemon.attack
+        defenseL.text = pokemon.defense
+        
+
         
     }
     
