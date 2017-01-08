@@ -19,6 +19,7 @@
 		85C64D4C1E21A299002E934D /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85C64D4B1E21A299002E934D /* Pokemon.ttf */; };
 		85C64D521E21A52A002E934D /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85C64D501E21A52A002E934D /* music.mp3 */; };
 		85C64D581E21A801002E934D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C64D571E21A801002E934D /* AVFoundation.framework */; };
+		85C64D5A1E21B30D002E934D /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C64D591E21B30D002E934D /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		85C64D4B1E21A299002E934D /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
 		85C64D501E21A52A002E934D /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		85C64D571E21A801002E934D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		85C64D591E21B30D002E934D /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				85C64D311E20EA39002E934D /* ViewController.swift */,
+				85C64D591E21B30D002E934D /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				85C64D481E20F894002E934D /* PokeCell.swift in Sources */,
 				85C64D321E20EA39002E934D /* ViewController.swift in Sources */,
 				85C64D301E20EA39002E934D /* AppDelegate.swift in Sources */,
+				85C64D5A1E21B30D002E934D /* PokemonDetailVC.swift in Sources */,
 				85C64D451E20EDF0002E934D /* Pokemon.swift in Sources */,
 				85C64D4A1E21741C002E934D /* csv.swift in Sources */,
 			);

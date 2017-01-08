@@ -60,7 +60,7 @@ UICollectionViewDelegateFlowLayout, UISearchBarDelegate{
         do {
             let csv = try CSV(contentsOfURL: path!)
             let rows = csv.rows
-            print(rows)
+          //  print(rows)
             
             for row in rows {
                 let pokeId = Int(row["id"]!)!
@@ -108,6 +108,17 @@ UICollectionViewDelegateFlowLayout, UISearchBarDelegate{
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        var poke: Pokemon!
+        
+        if inSearchMode {
+            poke = filteredPokemon[indexPath.row]
+        } else {
+            poke = pokemon[indexPath.row]
+        }
+        
+        performSegue(withIdentifier: "PokemonDetailVC", sender: poke)
+        
         
     }
     
@@ -165,6 +176,21 @@ UICollectionViewDelegateFlowLayout, UISearchBarDelegate{
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "PokemonDetailVC" {
+            if let detailVC =  segue.destination as? PokemonDetailVC {
+                if let poke = sender as? Pokemon{
+                    detailVC.pokemon = poke
+                }
+            }
+        
+        
+        }
+        
+        
+    
+    }
    
 
 }
